@@ -57,12 +57,63 @@
             #main-element-container {
                 padding: 115px;
             }
+            .button:hover {
+                box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+                background: #f8f8f8;
+                border: 1px solid #c6c6c6;
+                box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+                color: #222;
+            }
+            .top-menu-bar a {
+                position: static;
+                display: inline-block;
+                color: #000;
+                opacity: 0.75;
+                font-family: arial, sans-serif;
+                font-size: 13px;
+                float: none;
+                line-height: normal;
+                text-decoration: none;
+                padding-top: 12px;
+            }
+            #top-left-about {
+                padding-left: 15px;
+                float: left;
+            }    
+            #top-left-store {
+                float: left;
+                padding-left: 15px;
+            }
+            #top-right-images {
+                float: right;
+                padding-right: 15px;
+                padding-top: 12px;
+            }
+            #top-right-gmail {
+                float: right;
+                padding-right: 15px;
+                padding-top: 12px;
+            }
+           
 
 
         </style>
     </head>
     <title>Google Search Page Recreation</title>
     <body>
+        <div id="top-left-about" class="top-menu-bar">
+            <a href="#">About</a>
+        </div>
+        <div id="top-left-store" class="top-menu-bar">
+            <a href="#">Store</a>
+        </div>
+        <div id="top-right-images" class="top-menu-bar">
+            <a href="#">images</a>
+        </div>
+        <div id="top-right-gmail" class="top-menu-bar">
+            <a href="#">Gmail</a>
+        </div>
+        
         <div id="main-element-container">
             <img alt="google logo" class="center" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
             <input type="text">
